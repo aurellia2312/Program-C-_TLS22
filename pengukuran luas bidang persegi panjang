@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    cout<<"Nama : Aurellia Zalfa Sulistiyanto\n";
+    cout<<"NIM : 22/506032/TK/55420\n";
+    cout<<"Kelompok : Riemann\n";
+    cout<<".............................................................\n";
+    cout<<"MENGHITUNG LUAS PERSEGI PANJANG\n";
+
+    int panjang;
+    int lebar;
+    int luas;
+    
+    cout << "masukkan panjang : ";
+    cin >> panjang;
+    cout << "masukkan lebar : ";
+    cin >> lebar;
+    luas = panjang * lebar;
+    cout << "luasnya adalah : " << luas << endl;
+    
+    return 0;
+}
